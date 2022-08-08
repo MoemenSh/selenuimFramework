@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="nopcommerce regression suite">
+  <parameter name ="browser" value= "chrome"></parameter>
+  <test name="Regression Test" preserve-order="false">
+  
+    <classes>
+      <class name="tests.UserRegisterationTest"/>
+       <class name="tests.AddProductReviewTest"/>
+        <class name="tests.AddProductToCompareTest"/>
+         <class name="tests.AddProductToShoppinCarttest"/>
+          <class name="tests.AddProductToWishListTest"/>
+           <class name="tests.ChangeCurrencyTest"/>
+            <class name="tests.ContactUsTest"/>
+             <class name="tests.EmailFriendTest"/>
+              <class name="tests.MyAccountTest"/>
+               <class name="tests.ProductHoverMenuTest"/>
+                <class name="tests.SearchPriductUsingAutoSuggest"/>
+                <class name="tests.SearchProductTest"/>
+      
+    </classes>
+  </test> 
+</suite> 

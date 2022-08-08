@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="nopcommerce regression suite">
+  <parameter name ="browser" value= "chrome"></parameter>
+  <test name="Regression Test" preserve-order="false">
+  
+    <classes>
+      <class name="tests.UserRegisterationTest"/>
+       <class name="tests.AddProductReviewTest"/>
+        <class name="tests.AddProductToCompareTest"/>
+         <class name="tests.AddProductToShoppinCarttest"/>
+          <class name="tests.AddProductToWishListTest"/>
+              
+    </classes>
+  </test> 
+</suite> 
